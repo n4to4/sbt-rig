@@ -5,7 +5,7 @@
 [![Build Status](https://travis-ci.org/Verizon/sbt-rig.svg?branch=master)](https://travis-ci.org/Verizon/sbt-rig)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.verizon.build/sbt-rig/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.verizon.build/sbt-rig)
 
-This plugin does all the rigging and fiddly bits and bobs that the typical open source users wants when releasing their software for others. The following assumptions are made:
+This plugin does all the rigging and fiddly bits and bobs that the typical open source users want when releasing their software for others. The following assumptions are made:
 
 1. You want to do continuous integration and release, and you'll be using [travis-ci.org](https://travis-ci.org) to do this.
 1. You'll be releasing to oss.sonatype.org, and that you already claimed your top-level profile name in maven central. See [this sonatype docs for information](http://central.sonatype.org/pages/ossrh-guide.html) on that.
